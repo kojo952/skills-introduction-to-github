@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | Modern Interface</title>
+    <title>La Bella Cucina | Fine Dining Restaurant</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -114,6 +114,7 @@
             font-weight: 700;
             line-height: 1.2;
             margin-bottom: 1.5rem;
+            font-family: 'Playfair Display', serif;
         }
 
         .hero-title span {
@@ -177,6 +178,7 @@
             font-weight: 700;
             text-align: center;
             margin-bottom: 1rem;
+            font-family: 'Playfair Display', serif;
         }
 
         .section-subtitle {
@@ -465,7 +467,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">ModernUI</a>
+            <a class="navbar-brand" href="#">La Bella Cucina</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -475,7 +477,7 @@
                         <a class="nav-link active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
+                        <a class="nav-link" href="#menu">Menu</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -484,7 +486,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <a href="#" class="btn btn-gradient">Get Started</a>
+                <a href="#contact" class="btn btn-gradient">Reserve Table</a>
             </div>
         </div>
     </nav>
@@ -494,26 +496,26 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="hero-title">Build Something <span>Amazing</span> Today</h1>
-                    <p class="hero-subtitle">Create stunning, modern web experiences with our beautifully designed interface. Built with Bootstrap 5 for responsive, mobile-first development.</p>
+                    <h1 class="hero-title">Experience <span>Authentic</span> Italian Cuisine</h1>
+                    <p class="hero-subtitle">Indulge in a culinary journey with our chef's exquisite dishes, crafted from the finest ingredients and timeless recipes passed down through generations.</p>
                     <div class="d-flex gap-3 flex-wrap">
-                        <a href="#features" class="btn btn-gradient btn-lg">Explore Features</a>
-                        <a href="#about" class="btn btn-outline-light btn-lg rounded-pill">Learn More</a>
+                        <a href="#menu" class="btn btn-gradient btn-lg">View Menu</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill">Reserve Table</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="hero-image">
                         <div class="floating-card card-1">
-                            <i class="bi bi-lightning-charge text-warning me-2"></i>
-                            <span>Fast & Reliable</span>
+                            <i class="bi bi-star-fill text-warning me-2"></i>
+                            <span>5-Star Rated</span>
                         </div>
                         <div class="floating-card card-2">
-                            <i class="bi bi-shield-check text-success me-2"></i>
-                            <span>Secure</span>
+                            <i class="bi bi-award text-success me-2"></i>
+                            <span>Award Winning</span>
                         </div>
                         <div class="ratio ratio-16x9 rounded-4 overflow-hidden" style="background: var(--primary-gradient);">
                             <div class="d-flex align-items-center justify-content-center">
-                                <i class="bi bi-play-circle" style="font-size: 4rem; opacity: 0.8;"></i>
+                                <i class="bi bi-cup-hot" style="font-size: 4rem; opacity: 0.8;"></i>
                             </div>
                         </div>
                     </div>
@@ -522,64 +524,64 @@
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features-section" id="features">
+    <!-- Menu Section -->
+    <section class="features-section" id="menu">
         <div class="container">
-            <h2 class="section-title">Powerful Features</h2>
-            <p class="section-subtitle">Everything you need to build modern web applications</p>
+            <h2 class="section-title">Our Signature Dishes</h2>
+            <p class="section-subtitle">Discover our chef's handcrafted specialties</p>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <i class="bi bi-palette"></i>
+                            <i class="bi bi-egg-fried"></i>
                         </div>
-                        <h4>Beautiful Design</h4>
-                        <p>Carefully crafted UI components with attention to every pixel. Modern aesthetics that captivate your users.</p>
+                        <h4>Truffle Risotto</h4>
+                        <p>Creamy Arborio rice infused with black truffle, aged Parmigiano-Reggiano, and finished with truffle oil. A luxurious Italian classic.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <i class="bi bi-phone"></i>
+                            <i class="bi bi-fire"></i>
                         </div>
-                        <h4>Fully Responsive</h4>
-                        <p>Looks perfect on any device. From mobile phones to large desktop screens, your content adapts seamlessly.</p>
+                        <h4>Wagyu Filet Mignon</h4>
+                        <p>Premium Japanese Wagyu beef, perfectly seared and served with roasted vegetables and our signature red wine reduction.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <i class="bi bi-lightning"></i>
+                            <i class="bi bi-droplet"></i>
                         </div>
-                        <h4>Lightning Fast</h4>
-                        <p>Optimized for performance. Quick load times and smooth interactions keep your users engaged.</p>
+                        <h4>Lobster Linguine</h4>
+                        <p>Fresh Maine lobster tossed with al dente linguine in a rich tomato and white wine sauce with fresh herbs.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <i class="bi bi-shield-lock"></i>
+                            <i class="bi bi-flower1"></i>
                         </div>
-                        <h4>Secure by Default</h4>
-                        <p>Built with security best practices. Protect your users and their data with confidence.</p>
+                        <h4>Caprese Salad</h4>
+                        <p>Heirloom tomatoes, fresh buffalo mozzarella, and basil drizzled with extra virgin olive oil and balsamic reduction.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <i class="bi bi-code-slash"></i>
+                            <i class="bi bi-cup-hot"></i>
                         </div>
-                        <h4>Clean Code</h4>
-                        <p>Well-structured and documented code that's easy to customize and extend for your needs.</p>
+                        <h4>Tiramisu</h4>
+                        <p>Classic Italian dessert with layers of espresso-soaked ladyfingers, mascarpone cream, and dusted with cocoa powder.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <i class="bi bi-gear"></i>
+                            <i class="bi bi-cup-straw"></i>
                         </div>
-                        <h4>Easy Integration</h4>
-                        <p>Seamlessly integrates with your existing tools and workflows. Get started in minutes.</p>
+                        <h4>Wine Selection</h4>
+                        <p>Curated collection of fine wines from renowned Italian vineyards, perfectly paired with your meal by our sommelier.</p>
                     </div>
                 </div>
             </div>
@@ -592,26 +594,26 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="stat-item">
-                        <div class="stat-number">10K+</div>
-                        <div class="stat-label">Happy Users</div>
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Years of Excellence</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="stat-item">
-                        <div class="stat-number">500+</div>
-                        <div class="stat-label">Projects Completed</div>
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Happy Diners</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="stat-item">
-                        <div class="stat-number">99%</div>
-                        <div class="stat-label">Satisfaction Rate</div>
+                        <div class="stat-number">120+</div>
+                        <div class="stat-label">Menu Items</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="stat-item">
-                        <div class="stat-number">24/7</div>
-                        <div class="stat-label">Support Available</div>
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">Star Rating</div>
                     </div>
                 </div>
             </div>
@@ -621,41 +623,41 @@
     <!-- Testimonials Section -->
     <section class="testimonials-section" id="about">
         <div class="container">
-            <h2 class="section-title">What People Say</h2>
-            <p class="section-subtitle">Trusted by thousands of developers worldwide</p>
+            <h2 class="section-title">What Our Guests Say</h2>
+            <p class="section-subtitle">Reviews from our valued customers</p>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="testimonial-card">
-                        <p class="testimonial-text">"This interface transformed our web application. The modern design and smooth animations impressed our entire team."</p>
+                        <p class="testimonial-text">"An absolutely divine dining experience! The truffle risotto was heavenly, and the service was impeccable. This is now our go-to place for special occasions."</p>
                         <div class="testimonial-author">
-                            <div class="author-avatar">JD</div>
+                            <div class="author-avatar">MC</div>
                             <div class="author-info">
-                                <h6>John Doe</h6>
-                                <span>CEO, TechCorp</span>
+                                <h6>Maria Chen</h6>
+                                <span>Food Critic</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-card">
-                        <p class="testimonial-text">"Clean code, beautiful design, and excellent documentation. Everything a developer needs to build amazing products."</p>
+                        <p class="testimonial-text">"The ambiance is elegant yet welcoming. Every dish tells a story of passion and tradition. The chef's attention to detail is remarkable."</p>
                         <div class="testimonial-author">
-                            <div class="author-avatar">SM</div>
+                            <div class="author-avatar">RB</div>
                             <div class="author-info">
-                                <h6>Sarah Miller</h6>
-                                <span>Lead Developer</span>
+                                <h6>Robert Brown</h6>
+                                <span>Regular Guest</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-card">
-                        <p class="testimonial-text">"The responsive design works flawlessly across all devices. Our mobile users love the experience!"</p>
+                        <p class="testimonial-text">"Best Italian restaurant in the city! The wine pairing recommendations were spot on. We celebrated our anniversary here and it was magical."</p>
                         <div class="testimonial-author">
-                            <div class="author-avatar">MK</div>
+                            <div class="author-avatar">EW</div>
                             <div class="author-info">
-                                <h6>Mike Kim</h6>
-                                <span>Product Manager</span>
+                                <h6>Emily Watson</h6>
+                                <span>Anniversary Dinner</span>
                             </div>
                         </div>
                     </div>
@@ -668,9 +670,9 @@
     <section class="cta-section" id="contact">
         <div class="container">
             <div class="cta-box">
-                <h2>Ready to Get Started?</h2>
-                <p>Join thousands of developers building amazing web experiences</p>
-                <a href="#" class="btn btn-white btn-lg">Start Building Now</a>
+                <h2>Reserve Your Table Tonight</h2>
+                <p>Experience an unforgettable evening of fine dining and exceptional service</p>
+                <a href="tel:+1234567890" class="btn btn-white btn-lg">Call (123) 456-7890</a>
             </div>
         </div>
     </section>
@@ -680,36 +682,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
-                    <div class="footer-brand">ModernUI</div>
-                    <p class="footer-text">Building beautiful, responsive web interfaces with modern technologies and best practices.</p>
+                    <div class="footer-brand">La Bella Cucina</div>
+                    <p class="footer-text">Experience authentic Italian cuisine in an elegant setting. Our passion for food and hospitality creates unforgettable dining moments.</p>
                     <div class="social-links">
                         <a href="#" aria-label="Follow us on Twitter" title="Twitter"><i class="bi bi-twitter"></i></a>
                         <a href="#" aria-label="Follow us on Facebook" title="Facebook"><i class="bi bi-facebook"></i></a>
                         <a href="#" aria-label="Follow us on Instagram" title="Instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="#" aria-label="View our GitHub" title="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="#" aria-label="View our Yelp" title="Yelp"><i class="bi bi-yelp"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 mb-4">
                     <h6>Quick Links</h6>
                     <ul class="footer-links">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#features">Features</a></li>
+                        <li><a href="#menu">Menu</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#contact">Reservations</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-4 mb-4">
-                    <h6>Resources</h6>
+                    <h6>Hours</h6>
                     <ul class="footer-links">
-                        <li><a href="#">Documentation</a></li>
-                        <li><a href="#">Components</a></li>
-                        <li><a href="#">Templates</a></li>
-                        <li><a href="#">Support</a></li>
+                        <li>Mon - Thu: 5pm - 10pm</li>
+                        <li>Fri - Sat: 5pm - 11pm</li>
+                        <li>Sunday: 4pm - 9pm</li>
+                        <li>Brunch: Sat-Sun 10am-2pm</li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-4 mb-4">
                     <h6>Newsletter</h6>
-                    <p class="footer-text mb-3">Subscribe to get updates and news</p>
+                    <p class="footer-text mb-3">Subscribe for special offers and events</p>
                     <form class="input-group" action="#" method="post" onsubmit="return validateEmail(this);">
                         <input type="email" name="email" class="form-control bg-transparent border-secondary text-white" placeholder="Enter your email" required aria-label="Email address for newsletter" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                         <button class="btn btn-gradient" type="submit">Subscribe</button>
@@ -717,7 +719,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; <?php echo date('Y'); ?> ModernUI. All rights reserved.</p>
+                <p>&copy; <?php echo date('Y'); ?> La Bella Cucina. All rights reserved. | 123 Gourmet Street, Culinary District</p>
             </div>
         </div>
     </footer>
